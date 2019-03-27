@@ -14,17 +14,31 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-22 16:44:59</sys_created_on>
         <sys_id>72ba171edb5033002f677fcfbf9619ae</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_action_instance_72ba171edb5033002f677fcfbf9619ae</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 16:55:49</sys_updated_on>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-03-22 17:06:17</sys_updated_on>
         <ui_id>1ddd0931-480a-4a53-b9c7-70e15d53b5e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72ba171edb5033002f677fcfbf9619ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72ba171edb5033002f677fcfbf9619ae</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-03-22 17:05:57</sys_created_on>
+        <sys_id>398f1712db9033002f677fcfbf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-03-22 17:05:57</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>72ba171edb5033002f677fcfbf9619ae</document_key>
@@ -53,6 +67,18 @@
         <value>u_needit={{d562d2b5-5634-4414-bb08-44757c6d341a.record}}^assigned_to={{6fac7177-567f-437f-b5af-ddd8b35f2b49.answer.assignee}}^due_date={{d562d2b5-5634-4414-bb08-44757c6d341a.record.u_when_needed}}^short_description=Create Human Resources request NeedIt Task</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>72ba171edb5033002f677fcfbf9619ae</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-03-22 17:05:57</sys_created_on>
+        <sys_id>b58f1712db9033002f677fcfbf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-03-22 17:05:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_needit={{d562d2b5-5634-4414-bb08-44757c6d341a.record}}^assigned_to={{6fac7177-567f-437f-b5af-ddd8b35f2b49.answer.assignee}}^due_date={{d562d2b5-5634-4414-bb08-44757c6d341a.record.u_when_needed}}^short_description=Create Human Resources request NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
         <id>72ba171edb5033002f677fcfbf9619ae</id>
         <sys_created_by>admin</sys_created_by>
@@ -62,6 +88,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-22 16:44:59</sys_updated_on>
         <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>72ba171edb5033002f677fcfbf9619ae</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-03-22 17:05:57</sys_created_on>
+        <sys_id>f18f1712db9033002f677fcfbf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-03-22 17:05:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
         <value/>
     </sys_element_mapping>
 </record_update>
