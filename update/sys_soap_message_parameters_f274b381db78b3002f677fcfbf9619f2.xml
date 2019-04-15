@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>cep</name>
+        <soap_function display_value="consultaCEP">a6d3fb41db78b3002f677fcfbf96199d</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 17:56:43</sys_created_on>
+        <sys_id>f274b381db78b3002f677fcfbf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cep</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_f274b381db78b3002f677fcfbf9619f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 17:56:43</sys_updated_on>
+        <type>string</type>
+        <value>01153000</value>
+    </sys_soap_message_parameters>
+</record_update>
